@@ -31,3 +31,86 @@ body {
 }
 
 /* ----- zde začni psát vlastní CSS ----- */
+
+.menu {
+	display: flex;
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	gap: 35px;
+  }
+
+.navigace {
+	display: flex;
+	padding: 16px 0;
+}
+
+.navigace li a{
+	text-decoration: none;
+	padding: 20px 33px;
+	color: black;
+}
+
+.appka {
+	padding: 15px 0 15px 41px;
+	font-weight: 700;
+}
+
+.navigace li a:hover {
+	background-color: #48418e;
+	color: white;
+}
+
+.hero {
+	background: url(images/pozadi.jpg) no-repeat center/cover;
+	position: relative;
+	min-height: 458px;
+	color: white;
+}
+
+.ruka {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+}
+
+.hero h1 {
+	font-size: 90px;
+	font-weight: 400;
+	padding: 38px 0 26px 40px;
+	margin: 0;
+}
+
+.hero p {
+	font-size: 36px;
+	font-weight: 300;
+	margin-left: 40px;
+	margin-top: 0;
+	line-height: 1.2;
+}
+
+.tlacitka{
+	margin-left: 40px;
+	margin-top: 67px;
+}
+
+.tlacitka a {
+	
+	color: white;
+	font-size: 20px;
+	text-decoration: none;
+	padding: 18px 30px;
+	border: 1px solid white;
+	border-radius: 8px;
+
+}
+
+.zdarma {
+	background-color: #48418e;
+	margin-right: 20px;
+}
+
+.info {
+	font-weight: 300;
+}
+
