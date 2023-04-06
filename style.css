@@ -114,3 +114,37 @@ body {
 	font-weight: 300;
 }
 
+.obsah {
+	display: flex;
+	justify-content: space-between;
+	padding: 40px;
+	gap: 40px;
+}
+
+.obsah img {
+	width: 70px;
+}
+
+.ikona{
+	text-align: center;
+}
+
+.ikona h2 {
+	font-size: 20px;
+	font-weight: 700;
+	color: #48418e;
+	margin-top: 10px;
+}
+
+footer {
+	color: white;
+	background-color: #48418e;
+	text-align: center;
+	
+}
+
+footer p {
+	margin: 0;
+	padding: 10px;
+	font-size: 14px;
+}
